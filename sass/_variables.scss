@@ -1,0 +1,36 @@
+/////////////////////////////
+
+//font size// 
+$font-xs:1rem;
+$font-s:2rem;
+$font-m:3rem;
+$font-l:4rem;
+
+$fonttype: 'Inter';
+
+
+//mapa//
+$colors: ("primary-pink":#e6017e,
+    "secondary-pink":#d60076,
+    "tertiary-pink":#ac025f,
+    "primary-neutro":rgb(255, 255, 255),
+    "secondary-neutro":#131313,
+);
+
+//mixin//
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+//extend//
+.title-style {
+    font-weight: 900;
+    font-size: $font-l;
+}
+
+
+/////////////////////////////////
